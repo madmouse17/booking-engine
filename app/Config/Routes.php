@@ -39,6 +39,8 @@ $routes->get('/', 'Home::index');
 $routes->get('/hotel', 'Hotel::index');
 $routes->get('/book', 'HotelDetails::book');
 $routes->post('/payment', 'HotelDetails::payment');
+$routes->post('/notification', 'HotelDetails::notif');
+$routes->get('/completed', 'HotelDetails::completed');
 $routes->get('/hotel/(:any)', 'Hotel::hotelDetails/$1');
 
 

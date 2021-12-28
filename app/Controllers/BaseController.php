@@ -60,5 +60,7 @@ class BaseController extends Controller
         \Midtrans\Config::$isSanitized = true;
         // Set 3DS transaction for credit card to true
         \Midtrans\Config::$is3ds = true;
+
+        \Midtrans\Config::$overrideNotifUrl = "http://22a5-36-68-11-175.ngrok.io/notification,http://22a5-36-68-11-175.ngrok.io/completed";
     }
 }

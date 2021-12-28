@@ -8,6 +8,10 @@
             <div class="form-holder">
                 <form class="info-form" method="post" action="<?= base_url('payment') ?>">
                     <input type="hidden" name="total" value="<?= $param[0][0]['price'] ?>">
+                    <input type="hidden" name="alamat" value="<?= $param[0][0]['alamat'] ?>">
+                    <input type="hidden" name="nama_hotel" value="<?= $param[0][0]['nama_hotel'] ?>">
+                    <input type="hidden" name="checkin" value="<?= $param['checkin'] ?>">
+                    <input type="hidden" name="checkout" value="<?= $param['checkout'] ?>">
                     <div class="row field-row">
                         <div class="col-xs-12 col-sm-6">
                             <input class="required " placeholder="Nama" name="nama" required>

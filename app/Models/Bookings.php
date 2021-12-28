@@ -14,7 +14,7 @@ class Bookings extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = [];
+    protected $allowedFields    = ['booking_id', 'nama', 'alamat', 'no_hp', 'amount', 'status', 'nama_hotel', 'checkin', 'checkout'];
 
     // Dates
     protected $useTimestamps = false;
