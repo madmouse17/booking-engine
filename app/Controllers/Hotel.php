@@ -12,7 +12,6 @@ class Hotel extends BaseController
         $hotel = new Hotels();
         // $data['hotels'] = $hotel->getDetails();
         $data = $hotel->findAll();
-        // dd($data);
         return view('pages/hotel', ['hotels' => $data]);
     }
 
@@ -22,7 +21,7 @@ class Hotel extends BaseController
         $data['hotels'] = $details->getId($id);
         $details = $data['hotels'];
         $details['0']['image_hotel'] = json_decode($details['0']['image_hotel'], true);
-        //dd($details);
+
         return view('pages/hotelDetails', ['details' => $details]);
     }
 }

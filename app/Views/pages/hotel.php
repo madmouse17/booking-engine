@@ -79,15 +79,7 @@
 
 
 
-                <div class="search-heading col-md-3 col-sm-6">
 
-
-
-                    <h3>120 Hotels from $150</h3>
-
-
-
-                </div>
 
 
 
@@ -552,7 +544,7 @@
 
 
 
-                                            <span class="price"><span class="higlight emphasize value">$150</span> /Night</span><br />
+                                            <br />
 
 
 

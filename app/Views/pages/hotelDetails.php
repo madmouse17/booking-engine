@@ -675,7 +675,7 @@
 
 
 
-                    <span class="price"><span class="higlight emphasize value">$150</span> /Night</span><br />
+                    <span class="price"><span class="higlight emphasize value">Rp. <?= $details['0']['price'] ?></span> /Malam</span><br />
 
 
 
