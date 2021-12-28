@@ -2,34 +2,27 @@
 
 <?= $this->section('content') ?>
 <section id="travel-info" class="section wide-fat reservation-pages">
-
-
-
-
-
     <div class="container">
-
-
-
-
 
         <div class="col-xs-12 col-sm-8">
             <div class="form-holder">
-                <form class="info-form">
+                <form class="info-form" method="post" action="<?= base_url('payment') ?>">
+                    <input type="hidden" name="total" value="<?= $param[0][0]['price'] ?>">
                     <div class="row field-row">
                         <div class="col-xs-12 col-sm-6">
-                            <input class="required " placeholder="Nama" require>
+                            <input class="required " placeholder="Nama" name="nama" required>
                         </div>
                         <div class="col-xs-12 col-sm-6">
-                            <input class="required" type="email" placeholder="Email" required>
+                            <input class="required" type="email" name="email" placeholder="Email" required>
                         </div>
                     </div>
                     <div class="row field-row">
 
                         <div class="col-xs-12 col-sm-6">
 
-                            <input class="required " type="number" placeholder="No Hp" required>
+                            <input class="required " type="number" placeholder="No Hp" name="no_hp" required>
                         </div>
+
                     </div>
                     <button type="submit" class="button green narrow">Proceed To Next Step</button>
 

@@ -2,8 +2,9 @@
 
 namespace Config;
 
-use snap;
+
 use App\Controllers\Hotel;
+use App\Models\HotelDetails;
 
 // Create a new instance of our RouteCollection class.
 $routes = Services::routes();
@@ -37,8 +38,9 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->get('/hotel', 'Hotel::index');
 $routes->get('/book', 'HotelDetails::book');
+$routes->post('/payment', 'HotelDetails::payment');
 $routes->get('/hotel/(:any)', 'Hotel::hotelDetails/$1');
-$routes->get('/snap', 'snap::index');
+
 
 /*
  * --------------------------------------------------------------------
