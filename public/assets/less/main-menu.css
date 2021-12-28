@@ -1,0 +1,166 @@
+/* line 158, F:\Works\Traveline\preview\less\elements.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/elements\.less}line{font-family:\00003158}}
+.clearfix {
+  display: table;
+  content: '';
+  clear: both;
+}
+/* line 165, F:\Works\Traveline\preview\less\elements.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/elements\.less}line{font-family:\00003165}}
+.font-weight-regular {
+  font-weight: 400;
+}
+/* line 169, F:\Works\Traveline\preview\less\elements.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/elements\.less}line{font-family:\00003169}}
+.font-weight-bold {
+  font-weight: 700;
+}
+/* line 173, F:\Works\Traveline\preview\less\elements.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/elements\.less}line{font-family:\00003173}}
+.font-weight-ultra-bold {
+  font-weight: 900;
+}
+/* line 177, F:\Works\Traveline\preview\less\elements.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/elements\.less}line{font-family:\00003177}}
+.button-hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #85c616;
+  border-top: solid 1px #85c616;
+  border-left: solid 1px #85c616;
+  border-right: solid 1px #85c616;
+  border-bottom: solid 1px #85c616;
+}
+/** 
+ * Main menu 
+ * =============================== */
+/* line 12, F:\Works\Traveline\preview\less\main-menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/main-menu\.less}line{font-family:\0000312}}
+#main-menu:before,
+#main-menu:after {
+  display: table;
+  content: '';
+  clear: both;
+}
+/* line 16, F:\Works\Traveline\preview\less\main-menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/main-menu\.less}line{font-family:\0000316}}
+#main-menu a {
+  color: #51575b;
+  position: relative;
+}
+/* line 20, F:\Works\Traveline\preview\less\main-menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/main-menu\.less}line{font-family:\0000320}}
+#main-menu a:hover {
+  color: #85c616;
+}
+/* line 32, F:\Works\Traveline\preview\less\main-menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/main-menu\.less}line{font-family:\0000332}}
+#main-menu > nav > ul > li > a {
+  padding-top: 50px;
+  height: 97px;
+}
+/* line 40, F:\Works\Traveline\preview\less\main-menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/main-menu\.less}line{font-family:\0000340}}
+#main-menu > nav > ul > li.about-us > a {
+  background: url('images/about-us.png') 50% 20% no-repeat;
+}
+/* line 42, F:\Works\Traveline\preview\less\main-menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/main-menu\.less}line{font-family:\0000342}}
+#main-menu > nav > ul > li.about-us > a:hover {
+  background: url('images/about-us-active.png') 50% 20% no-repeat;
+}
+/* line 48, F:\Works\Traveline\preview\less\main-menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/main-menu\.less}line{font-family:\0000348}}
+#main-menu > nav > ul > li.destinations > a {
+  background: url('images/destinations.png') 50% 20% no-repeat;
+}
+/* line 50, F:\Works\Traveline\preview\less\main-menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/main-menu\.less}line{font-family:\0000350}}
+#main-menu > nav > ul > li.destinations > a:hover {
+  background: url('images/destinations-active.png') 50% 20% no-repeat;
+}
+/* line 56, F:\Works\Traveline\preview\less\main-menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/main-menu\.less}line{font-family:\0000356}}
+#main-menu > nav > ul > li.our-travel > a {
+  background: url('images/our-travel.png') 50% 20% no-repeat;
+}
+/* line 58, F:\Works\Traveline\preview\less\main-menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/main-menu\.less}line{font-family:\0000358}}
+#main-menu > nav > ul > li.our-travel > a:hover {
+  background: url('images/our-travel-active.png') 50% 20% no-repeat;
+}
+/* line 64, F:\Works\Traveline\preview\less\main-menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/main-menu\.less}line{font-family:\0000364}}
+#main-menu > nav > ul > li.special-offers > a {
+  background: url('images/special-offers.png') 50% 20% no-repeat;
+}
+/* line 66, F:\Works\Traveline\preview\less\main-menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/main-menu\.less}line{font-family:\0000366}}
+#main-menu > nav > ul > li.special-offers > a:hover {
+  background: url('images/special-offers-active.png') 50% 20% no-repeat;
+}
+/* line 72, F:\Works\Traveline\preview\less\main-menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/main-menu\.less}line{font-family:\0000372}}
+#main-menu > nav > ul > li.hotel > a {
+  background: url('images/hotel.png') 50% 20% no-repeat;
+}
+/* line 74, F:\Works\Traveline\preview\less\main-menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/main-menu\.less}line{font-family:\0000374}}
+#main-menu > nav > ul > li.hotel > a:hover {
+  background: url('images/hotel-active.png') 50% 20% no-repeat;
+}
+/* line 80, F:\Works\Traveline\preview\less\main-menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/main-menu\.less}line{font-family:\0000380}}
+#main-menu > nav > ul > li.shortcodes > a {
+  background: url('images/shortcodes.png') 50% 20% no-repeat;
+}
+/* line 82, F:\Works\Traveline\preview\less\main-menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/main-menu\.less}line{font-family:\0000382}}
+#main-menu > nav > ul > li.shortcodes > a:hover {
+  background: url('images/shortcodes-active.png') 50% 20% no-repeat;
+}
+/* line 88, F:\Works\Traveline\preview\less\main-menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/main-menu\.less}line{font-family:\0000388}}
+#main-menu > nav > ul > li.contact > a {
+  background: url('images/contact.png') 50% 20% no-repeat;
+}
+/* line 90, F:\Works\Traveline\preview\less\main-menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/main-menu\.less}line{font-family:\0000390}}
+#main-menu > nav > ul > li.contact > a:hover {
+  background: url('images/contact-active.png') 50% 20% no-repeat;
+}
+/* line 102, F:\Works\Traveline\preview\less\main-menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/main-menu\.less}line{font-family:\00003102}}
+#main-menu li {
+  float: left;
+  margin-right: 48px;
+}
+/* line 106, F:\Works\Traveline\preview\less\main-menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/main-menu\.less}line{font-family:\00003106}}
+#main-menu li:last-child {
+  margin-right: 0;
+}
+/* line 110, F:\Works\Traveline\preview\less\main-menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/main-menu\.less}line{font-family:\00003110}}
+#main-menu li a {
+  display: inline-block;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+/* line 116, F:\Works\Traveline\preview\less\main-menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/main-menu\.less}line{font-family:\00003116}}
+#main-menu li a:hover {
+  text-decoration: none;
+}
+/* line 119, F:\Works\Traveline\preview\less\main-menu.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/main-menu\.less}line{font-family:\00003119}}
+#main-menu li a:hover:before {
+  position: absolute;
+  display: block;
+  width: 100%;
+  top: 0;
+  left: 0;
+  content: '';
+  border-bottom: 3px solid #85c616;
+}

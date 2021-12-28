@@ -1,0 +1,316 @@
+/* line 158, F:\Works\Traveline\preview\less\elements.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/elements\.less}line{font-family:\00003158}}
+.clearfix {
+  display: table;
+  content: '';
+  clear: both;
+}
+/* line 165, F:\Works\Traveline\preview\less\elements.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/elements\.less}line{font-family:\00003165}}
+.font-weight-regular {
+  font-weight: 400;
+}
+/* line 169, F:\Works\Traveline\preview\less\elements.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/elements\.less}line{font-family:\00003169}}
+.font-weight-bold {
+  font-weight: 700;
+}
+/* line 173, F:\Works\Traveline\preview\less\elements.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/elements\.less}line{font-family:\00003173}}
+.font-weight-ultra-bold {
+  font-weight: 900;
+}
+/* line 177, F:\Works\Traveline\preview\less\elements.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/elements\.less}line{font-family:\00003177}}
+.button-hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #85c616;
+  border-top: solid 1px #85c616;
+  border-left: solid 1px #85c616;
+  border-right: solid 1px #85c616;
+  border-bottom: solid 1px #85c616;
+}
+/** 
+ * Our Travel Section 
+ * =============================== */
+/* line 11, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\0000311}}
+#our-travel {
+  background-color: #ffffff;
+}
+/* Tour Categories by Country */
+/* line 18, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\0000318}}
+.tour-category-item {
+  margin-bottom: 30px;
+}
+/* line 22, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\0000322}}
+.tour-category-item .inner {
+  background-color: #f5f8f9;
+}
+/* line 24, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\0000324}}
+.tour-category-item .inner:before,
+.tour-category-item .inner:after {
+  display: table;
+  content: '';
+  clear: both;
+}
+/* line 31, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\0000331}}
+.tour-category-item .part {
+  width: 50%;
+  float: left;
+}
+/* line 36, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\0000336}}
+.tour-category-item .part h3 {
+  padding: 20px;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+/* line 42, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\0000342}}
+.tour-category-item .part h3.category-heading {
+  background-color: #85c616;
+  color: #ffffff;
+  position: relative;
+}
+/* line 47, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\0000347}}
+.tour-category-item .part h3.category-heading:after {
+  position: absolute;
+  display: block;
+  width: 15px;
+  height: 15px;
+  content: '';
+  top: 35%;
+  right: 0;
+  background: #eaf2f7;
+}
+/* line 60, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\0000360}}
+.tour-category-item .part h3.list-heading {
+  background-color: #eaf2f7;
+  color: #95a8b4;
+}
+/* line 65, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\0000365}}
+.tour-category-item .part h3.category-heading,
+.tour-category-item .part h3.list-heading {
+  line-height: 1px;
+}
+/* line 77, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\0000377}}
+.tour-category-item .featured-tour .entry-content {
+  padding: 20px;
+  border: 1px solid #e4ecf2;
+  border-top: none;
+}
+/* line 82, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\0000382}}
+.tour-category-item .featured-tour .entry-content h1 {
+  font-size: 16px;
+  margin: 0;
+  font-weight: 900;
+}
+/* line 87, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\0000387}}
+.tour-category-item .featured-tour .entry-content h1 a {
+  color: #51575b;
+}
+/* line 90, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\0000390}}
+.tour-category-item .featured-tour .entry-content h1 a:hover {
+  text-decoration: none;
+  color: #85c616;
+}
+/* line 99, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\0000399}}
+.tour-category-item .featured-tour .entry-content p {
+  margin-bottom: 0;
+}
+/* line 106, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\00003106}}
+.tour-category-item .featured-tour .entry-meta {
+  border: 1px solid #e4ecf2;
+  border-top: none;
+  padding: 10px 20px;
+}
+/* line 108, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\00003108}}
+.tour-category-item .featured-tour .entry-meta:before,
+.tour-category-item .featured-tour .entry-meta:after {
+  display: table;
+  content: '';
+  clear: both;
+}
+/* line 116, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\00003116}}
+.tour-category-item .featured-tour .entry-meta span {
+  width: 33%;
+  float: left;
+}
+/* line 120, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\00003120}}
+.tour-category-item .featured-tour .entry-meta span.rating {
+  color: #ffc000;
+}
+/* line 123, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\00003123}}
+.tour-category-item .featured-tour .entry-meta span.rating span {
+  display: inline;
+  text-indent: -9999px;
+  width: 71px;
+  height: 14px;
+  margin-top: 3px;
+  background: url('images/rating-star.png') top left no-repeat;
+}
+/* line 134, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\00003134}}
+.tour-category-item .featured-tour .entry-meta span.review {
+  width: 46%;
+  text-align: center;
+}
+/* line 137, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\00003137}}
+.tour-category-item .featured-tour .entry-meta span.review a {
+  padding-left: 30px;
+  color: #85c616;
+  background: url('images/review-icon.png') 10% 50% no-repeat;
+}
+/* line 144, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\00003144}}
+.tour-category-item .featured-tour .entry-meta span.go-detail {
+  width: 20%;
+  text-align: right;
+}
+/* line 147, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\00003147}}
+.tour-category-item .featured-tour .entry-meta span.go-detail a {
+  color: #95a8b4;
+}
+/* line 149, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\00003149}}
+.tour-category-item .featured-tour .entry-meta span.go-detail a:hover {
+  color: #85c616;
+}
+/* line 164, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\00003164}}
+.tour-category-item .hotel-lists .hotel-list-item {
+  padding: 20px;
+  border-bottom: 1px solid #e4ecf2;
+}
+/* line 166, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\00003166}}
+.tour-category-item .hotel-lists .hotel-list-item:before,
+.tour-category-item .hotel-lists .hotel-list-item:after {
+  display: table;
+  content: '';
+  clear: both;
+}
+/* line 173, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\00003173}}
+.tour-category-item .hotel-lists .hotel-list-item .thumbnailz {
+  display: inline-block;
+  float: left;
+  margin-right: 20px;
+  position: relative;
+}
+/* line 179, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\00003179}}
+.tour-category-item .hotel-lists .hotel-list-item .thumbnailz img {
+  margin-right: 0;
+  z-index: 1;
+}
+/* line 184, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\00003184}}
+.tour-category-item .hotel-lists .hotel-list-item .thumbnailz .overlay {
+  z-index: 1;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  color: #ffffff;
+  background: #85c616 url('images/arrow-right.png') 50% 50% no-repeat;
+  text-align: center;
+  display: none;
+}
+/* line 199, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\00003199}}
+.tour-category-item .hotel-lists .hotel-list-item .thumbnailz:hover .overlay {
+  display: block;
+}
+/* line 206, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\00003206}}
+.tour-category-item .hotel-lists .hotel-list-item img {
+  display: table;
+  float: left;
+  margin-right: 20px;
+}
+/* line 212, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\00003212}}
+.tour-category-item .hotel-lists .hotel-list-item .entry-content {
+  float: left;
+}
+/* line 215, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\00003215}}
+.tour-category-item .hotel-lists .hotel-list-item .entry-content h3 {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+/* line 221, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\00003221}}
+.tour-category-item .hotel-lists .hotel-list-item .entry-content h3 a {
+  color: #51575b;
+}
+/* line 224, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\00003224}}
+.tour-category-item .hotel-lists .hotel-list-item .entry-content h3 a:hover {
+  text-decoration: none;
+  color: #85c616;
+}
+/* line 233, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\00003233}}
+.tour-category-item .hotel-lists .hotel-list-item .entry-content .price .value {
+  font-size: 18px;
+}
+/* line 242, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\00003242}}
+.tour-category-item .hotel-lists .load-more-hotel {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+}
+/* line 247, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\00003247}}
+.tour-category-item .hotel-lists .load-more-hotel a {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+/* line 254, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\00003254}}
+.tour-category-item .hotel-lists .button {
+  margin-top: 7px;
+  background: #ffffff;
+  border-color: #cedbe3;
+  color: #cedbe3;
+}
+/* line 260, F:\Works\Traveline\preview\less\section-our-travel.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-our-travel\.less}line{font-family:\00003260}}
+.tour-category-item .hotel-lists .button:hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #85c616;
+  border-top: solid 1px #85c616;
+  border-left: solid 1px #85c616;
+  border-right: solid 1px #85c616;
+  border-bottom: solid 1px #85c616;
+}

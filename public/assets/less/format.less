@@ -1,0 +1,101 @@
+// Mixins
+
+@import url("elements.less");
+
+
+/** 
+ * Format 
+ * =============================== */ 
+
+
+/* Layout */ 
+ 
+.section{ 
+	
+	padding-top:100px;
+	padding-bottom:100px;
+	
+	.section-intro{
+		text-align:center;
+	}
+	
+	#testimonials &{
+		color:@white;
+	}	
+
+}
+
+
+
+/* Typography */
+
+
+h1{
+
+	&.page-title{
+		font-family: 'Playfair Display', serif;
+		.font-weight-bold;
+		font-size:48px;
+		color:@gray-darker-1;
+		margin-bottom:20px;
+		
+		
+		#testimonials &, #special-offers &{
+			color:@white;
+		}
+		
+	}
+
+}
+
+/* Buttons */
+
+.button{
+	
+	display:inline-block;
+	padding:10px 16px;
+	.rounded(3px);
+	.bordered(@gray, @gray, @gray, @gray);
+	color:@gray;
+	
+	&:hover{
+		color:@white;
+		text-decoration:none;
+		background-color:@hover-color;
+		.bordered(@hover-color, @hover-color, @hover-color, @hover-color);
+	}
+	
+	&.mini{
+		padding:3px 16px;
+	}
+	
+	&.wide-fat{
+		text-align:center;
+		padding-left:0;
+		padding-right:0;
+	}		
+	
+}
+
+
+
+
+/* Responsive */
+
+@media screen and (min-width: 1200px) {
+	
+	.section{ 
+
+		.section-intro{
+
+				.entry-content{
+					padding-left:160px;
+					padding-right:160px;
+				}
+
+		}
+
+
+	}	
+
+}

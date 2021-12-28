@@ -1,0 +1,116 @@
+/* line 158, F:\Works\Traveline\preview\less\elements.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/elements\.less}line{font-family:\00003158}}
+.clearfix {
+  display: table;
+  content: '';
+  clear: both;
+}
+/* line 165, F:\Works\Traveline\preview\less\elements.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/elements\.less}line{font-family:\00003165}}
+.font-weight-regular {
+  font-weight: 400;
+}
+/* line 169, F:\Works\Traveline\preview\less\elements.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/elements\.less}line{font-family:\00003169}}
+.font-weight-bold {
+  font-weight: 700;
+}
+/* line 173, F:\Works\Traveline\preview\less\elements.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/elements\.less}line{font-family:\00003173}}
+.font-weight-ultra-bold {
+  font-weight: 900;
+}
+/* line 177, F:\Works\Traveline\preview\less\elements.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/elements\.less}line{font-family:\00003177}}
+.button-hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #85c616;
+  border-top: solid 1px #85c616;
+  border-left: solid 1px #85c616;
+  border-right: solid 1px #85c616;
+  border-bottom: solid 1px #85c616;
+}
+/** 
+ * Format 
+ * =============================== */
+/* Layout */
+/* line 13, F:\Works\Traveline\preview\less\format.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/format\.less}line{font-family:\0000313}}
+.section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+/* line 18, F:\Works\Traveline\preview\less\format.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/format\.less}line{font-family:\0000318}}
+.section .section-intro {
+  text-align: center;
+}
+/* line 22, F:\Works\Traveline\preview\less\format.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/format\.less}line{font-family:\0000322}}
+#testimonials .section {
+  color: #ffffff;
+}
+/* Typography */
+/* line 35, F:\Works\Traveline\preview\less\format.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/format\.less}line{font-family:\0000335}}
+h1.page-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #51575b;
+  margin-bottom: 20px;
+}
+/* line 43, F:\Works\Traveline\preview\less\format.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/format\.less}line{font-family:\0000343}}
+#testimonials h1.page-title,
+#special-offers h1.page-title {
+  color: #ffffff;
+}
+/* Buttons */
+/* line 53, F:\Works\Traveline\preview\less\format.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/format\.less}line{font-family:\0000353}}
+.button {
+  display: inline-block;
+  padding: 10px 16px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border-top: solid 1px #95a8b4;
+  border-left: solid 1px #95a8b4;
+  border-right: solid 1px #95a8b4;
+  border-bottom: solid 1px #95a8b4;
+  color: #95a8b4;
+}
+/* line 61, F:\Works\Traveline\preview\less\format.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/format\.less}line{font-family:\0000361}}
+.button:hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #85c616;
+  border-top: solid 1px #85c616;
+  border-left: solid 1px #85c616;
+  border-right: solid 1px #85c616;
+  border-bottom: solid 1px #85c616;
+}
+/* line 68, F:\Works\Traveline\preview\less\format.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/format\.less}line{font-family:\0000368}}
+.button.mini {
+  padding: 3px 16px;
+}
+/* line 72, F:\Works\Traveline\preview\less\format.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/format\.less}line{font-family:\0000372}}
+.button.wide-fat {
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* Responsive */
+@media screen and (min-width: 1200px) {
+  /* line 91, F:\Works\Traveline\preview\less\format.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/format\.less}line{font-family:\0000391}}
+  .section .section-intro .entry-content {
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+}

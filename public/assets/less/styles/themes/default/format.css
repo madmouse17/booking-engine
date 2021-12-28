@@ -1,0 +1,86 @@
+.clearfix {
+  display: table;
+  content: '';
+  clear: both;
+}
+.font-weight-regular {
+  font-weight: 400;
+}
+.font-weight-bold {
+  font-weight: 700;
+}
+.font-weight-ultra-bold {
+  font-weight: 900;
+}
+.button-hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #85c616;
+  border-top: solid 1px #85c616;
+  border-left: solid 1px #85c616;
+  border-right: solid 1px #85c616;
+  border-bottom: solid 1px #85c616;
+}
+/** 
+ * Format 
+ * =============================== */
+/* Layout */
+.section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.section .section-intro {
+  text-align: center;
+}
+#testimonials .section {
+  color: #ffffff;
+}
+/* Typography */
+h1.page-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #51575b;
+  margin-bottom: 20px;
+}
+#testimonials h1.page-title,
+#special-offers h1.page-title {
+  color: #ffffff;
+}
+/* Buttons */
+.button {
+  display: inline-block;
+  padding: 10px 16px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border-top: solid 1px #95a8b4;
+  border-left: solid 1px #95a8b4;
+  border-right: solid 1px #95a8b4;
+  border-bottom: solid 1px #95a8b4;
+  color: #95a8b4;
+}
+.button:hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #85c616;
+  border-top: solid 1px #85c616;
+  border-left: solid 1px #85c616;
+  border-right: solid 1px #85c616;
+  border-bottom: solid 1px #85c616;
+}
+.button.mini {
+  padding: 3px 16px;
+}
+.button.wide-fat {
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* Responsive */
+@media screen and (min-width: 1200px) {
+  .section .section-intro .entry-content {
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+}

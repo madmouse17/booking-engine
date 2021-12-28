@@ -1,0 +1,11 @@
+/** 
+ * Reset 
+ * =============================== */
+/* line 5, F:\Works\Traveline\preview\less\reset.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/reset\.less}line{font-family:\000035}}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

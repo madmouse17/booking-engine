@@ -1,0 +1,92 @@
+// Mixins
+
+@import url("elements.less");
+
+
+/** 
+ * About Section 
+ * =============================== */ 
+ 
+ 
+#about-us{
+	background-color:#ffffff;
+	border-bottom:1px solid @gray-light;
+}	
+ 
+ 
+.grid{
+	
+	&.about-details{
+	
+		text-align:center;
+		
+		h2{
+			font-size:18px;
+			font-family: 'Playfair Display', serif;
+			.font-weight-bold;			
+			color:@gray-darker-1;
+			margin-bottom:20px;
+		}
+		
+		div[class*="about-detail-"]{
+		
+			padding-top:200px;
+			
+			&:hover{
+				h2{
+					color:@hover-color;
+				}
+				
+				.button{
+					.button-hover;
+				}
+				
+			}
+		
+		}
+		
+		
+		.honey-moon{
+			background:url('images/honey-moon.png') 50% 0% no-repeat;	
+			&:hover{
+				background:url('images/honey-moon-active.png') 50% 0% no-repeat;	
+			}
+		}
+		.explore-nature{
+			background:url('images/explore-nature.png') 50% 0% no-repeat;	
+			&:hover{
+				background:url('images/explore-nature-active.png') 50% 0% no-repeat;	
+			}
+		}
+		.amazing-travel{
+			background:url('images/amazing-travel.png') 50% 0% no-repeat;	
+			&:hover{
+				background:url('images/amazing-travel-active.png') 50% 0% no-repeat;	
+			}
+		}
+		
+	
+	}
+
+} 
+
+
+/* Responsive */
+
+@media screen and (max-width: 991px) {
+	
+	.grid{
+		
+		&.about-details{
+
+			div[class*="about-detail-"]{
+				
+				margin-bottom:50px;
+				
+			}
+			
+		}
+		
+	}	
+
+}

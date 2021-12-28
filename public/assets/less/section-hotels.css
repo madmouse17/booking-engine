@@ -1,0 +1,42 @@
+/* line 158, F:\Works\Traveline\preview\less\elements.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/elements\.less}line{font-family:\00003158}}
+.clearfix {
+  display: table;
+  content: '';
+  clear: both;
+}
+/* line 165, F:\Works\Traveline\preview\less\elements.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/elements\.less}line{font-family:\00003165}}
+.font-weight-regular {
+  font-weight: 400;
+}
+/* line 169, F:\Works\Traveline\preview\less\elements.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/elements\.less}line{font-family:\00003169}}
+.font-weight-bold {
+  font-weight: 700;
+}
+/* line 173, F:\Works\Traveline\preview\less\elements.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/elements\.less}line{font-family:\00003173}}
+.font-weight-ultra-bold {
+  font-weight: 900;
+}
+/* line 177, F:\Works\Traveline\preview\less\elements.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/elements\.less}line{font-family:\00003177}}
+.button-hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #85c616;
+  border-top: solid 1px #85c616;
+  border-left: solid 1px #85c616;
+  border-right: solid 1px #85c616;
+  border-bottom: solid 1px #85c616;
+}
+/** 
+ * Hotels Section 
+ * =============================== */
+/* line 11, F:\Works\Traveline\preview\less\section-hotels.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-hotels\.less}line{font-family:\0000311}}
+#hotels {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e9eff4;
+}

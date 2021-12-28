@@ -1,0 +1,79 @@
+.clearfix {
+  display: table;
+  content: '';
+  clear: both;
+}
+.font-weight-regular {
+  font-weight: 400;
+}
+.font-weight-bold {
+  font-weight: 700;
+}
+.font-weight-ultra-bold {
+  font-weight: 900;
+}
+.button-hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #85c616;
+  border-top: solid 1px #85c616;
+  border-left: solid 1px #85c616;
+  border-right: solid 1px #85c616;
+  border-bottom: solid 1px #85c616;
+}
+/** 
+ * About Section 
+ * =============================== */
+#about-us {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e9eff4;
+}
+.grid.about-details {
+  text-align: center;
+}
+.grid.about-details h2 {
+  font-size: 18px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  color: #51575b;
+  margin-bottom: 20px;
+}
+.grid.about-details div[class*="about-detail-"] {
+  padding-top: 200px;
+}
+.grid.about-details div[class*="about-detail-"]:hover h2 {
+  color: #85c616;
+}
+.grid.about-details div[class*="about-detail-"]:hover .button {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #85c616;
+  border-top: solid 1px #85c616;
+  border-left: solid 1px #85c616;
+  border-right: solid 1px #85c616;
+  border-bottom: solid 1px #85c616;
+}
+.grid.about-details .honey-moon {
+  background: url('images/honey-moon.png') 50% 0% no-repeat;
+}
+.grid.about-details .honey-moon:hover {
+  background: url('images/honey-moon-active.png') 50% 0% no-repeat;
+}
+.grid.about-details .explore-nature {
+  background: url('images/explore-nature.png') 50% 0% no-repeat;
+}
+.grid.about-details .explore-nature:hover {
+  background: url('images/explore-nature-active.png') 50% 0% no-repeat;
+}
+.grid.about-details .amazing-travel {
+  background: url('images/amazing-travel.png') 50% 0% no-repeat;
+}
+.grid.about-details .amazing-travel:hover {
+  background: url('images/amazing-travel-active.png') 50% 0% no-repeat;
+}
+/* Responsive */
+@media screen and (max-width: 991px) {
+  .grid.about-details div[class*="about-detail-"] {
+    margin-bottom: 50px;
+  }
+}

@@ -1,0 +1,49 @@
+// Mixins
+
+@import url("elements.less");
+
+
+/** 
+ * General 
+ * =============================== */ 
+
+
+body{
+	background-color:@body-background;
+	color:@body-text-color;
+	font-family: 'Lato', sans-serif;
+	.font-weight-regular;
+	overflow-x: hidden;
+}
+
+
+a{
+	
+	color:@gray-darker-1;
+	
+	&:visited, &:hover{
+		color:@green;
+	}
+
+}
+
+p{
+	margin-bottom:30px;
+}
+
+.responsive-image{
+	max-width:100%;
+	height:auto;
+}
+
+.higlight{
+	color:@green;
+}
+
+.emphasize{
+	.font-weight-ultra-bold;
+}
+
+.wide-fat{
+	width:100%;
+}

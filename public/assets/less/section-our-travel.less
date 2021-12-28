@@ -1,0 +1,271 @@
+// Mixins
+
+@import url("elements.less");
+
+
+/** 
+ * Our Travel Section 
+ * =============================== */
+ 
+ 
+#our-travel{
+	background-color:@white;
+}   
+
+
+/* Tour Categories by Country */
+
+.tour-category-item{
+	
+	margin-bottom:30px;
+	
+	.inner{
+	
+		&:before, &:after{
+			.clearfix;
+		}
+		
+		background-color:@gray-lighter-2;
+	}
+	
+	.part{
+	
+		width:50%;
+		float:left;
+		
+		h3{
+			padding:20px;
+			margin:0;
+			text-transform:uppercase;
+			.font-weight-bold;
+			
+			&.category-heading{
+				background-color:@green;
+				color:@white;
+				position:relative;
+				
+				&:after{
+					position:absolute;
+					display:block;
+					width:15px;
+					height:15px;
+					content:'';
+					top:35%;
+					right:0;
+					background:@gray-lighter-1;
+				}
+				
+			}
+			
+			&.list-heading{
+				background-color:@gray-lighter-1;
+				color:@gray;	
+			}
+			
+			&.category-heading, &.list-heading{
+				line-height:1px;
+			}
+			
+		}
+		
+	}
+	
+	
+	.featured-tour{
+	
+		
+		.entry-content{
+			padding:20px;
+			border:1px solid @gray-lighter-3;
+			border-top:none;
+			
+			h1{
+				font-size:16px;
+				margin:0;
+				.font-weight-ultra-bold;
+				
+				a{
+					color:@gray-darker-1;
+					
+					&:hover{
+						text-decoration:none;
+						color:@green;
+					}
+					
+				}
+				
+			}
+			
+			p{
+				margin-bottom:0;
+			}
+			
+		}
+		
+		
+		.entry-meta{
+			
+			&:before, &:after{
+				.clearfix;
+			}
+			
+			border:1px solid @gray-lighter-3;
+			border-top:none;
+			padding:10px 20px;
+			
+			span{
+				width:33%;
+				float:left;
+				
+				&.rating{
+					color:@rating-color;
+					
+					span{
+						display:inline;
+						text-indent:-9999px;
+						width:71px;
+						height:14px;
+						margin-top:3px;
+						background:url('images/rating-star.png') top left no-repeat;						
+					}
+					
+				}
+				
+				&.review{
+					width:46%;
+					text-align:center;
+					a{
+						padding-left:30px;
+						color:@green;
+						background:url('images/review-icon.png') 10% 50% no-repeat;
+					}
+				}
+				
+				&.go-detail{
+					width:20%;
+					text-align:right;
+					a{
+						color: @body-text-color;
+						&:hover{
+							color:@green;
+						}
+					}
+				}
+				
+			}
+			
+		}	
+	
+	}
+	
+	
+	.hotel-lists{
+	
+		.hotel-list-item{
+		
+			&:before, &:after{
+				.clearfix;
+			}		
+		
+			padding:20px;
+			border-bottom:1px solid @gray-lighter-3;
+			
+			.thumbnailz{
+				display:inline-block;
+				float:left;
+				margin-right:20px;
+				position:relative;
+				
+				img{
+					margin-right:0;
+					z-index:1;
+				}
+				
+				.overlay{
+					z-index:1;
+					width:70px;
+					height:70px;
+					position:absolute;
+					display:block;
+					top:0;
+					left:0;	
+					color:@white;
+					background:@green url('images/arrow-right.png') 50% 50% no-repeat;
+					text-align:center;
+					display:none;
+				}
+				
+				&:hover{
+					.overlay{
+						display:block;
+					}
+				}
+				
+			}
+			
+			img{
+				display:table;
+				float:left;
+				margin-right:20px;
+			}
+			
+			.entry-content{
+				float:left;
+
+				h3{
+					font-size:14px;
+					.font-weight-bold;
+					margin:0;
+					padding:0;
+				
+					a{
+						color:@gray-darker-1;
+						
+						&:hover{
+							text-decoration:none;
+							color:@green;
+						}
+						
+					}
+				}
+
+				.price{
+					.value{
+						font-size:18px;
+					}
+				}		
+					
+			}
+			
+		}
+		
+		.load-more-hotel{
+			padding-left:20px;
+			padding-right:20px;		
+			padding-top:5px;
+			
+			a{
+				text-transform:uppercase;
+				.font-weight-bold;
+			}
+			
+		}
+		
+		.button{
+			margin-top:7px;
+			background:@white;
+			border-color:@gray-lighter-4;
+			color:@gray-darker-2;
+			
+			&:hover{
+				color:@white;
+				text-decoration:none;
+				background-color:@hover-color;
+				.bordered(@hover-color, @hover-color, @hover-color, @hover-color);
+			}
+		}
+	
+	}
+	
+
+}

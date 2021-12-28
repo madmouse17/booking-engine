@@ -1,0 +1,110 @@
+.clearfix {
+  display: table;
+  content: '';
+  clear: both;
+}
+.font-weight-regular {
+  font-weight: 400;
+}
+.font-weight-bold {
+  font-weight: 700;
+}
+.font-weight-ultra-bold {
+  font-weight: 900;
+}
+.button-hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #85c616;
+  border-top: solid 1px #85c616;
+  border-left: solid 1px #85c616;
+  border-right: solid 1px #85c616;
+  border-bottom: solid 1px #85c616;
+}
+/** 
+ * Main menu 
+ * =============================== */
+#main-menu:before,
+#main-menu:after {
+  display: table;
+  content: '';
+  clear: both;
+}
+#main-menu a {
+  color: #51575b;
+  position: relative;
+}
+#main-menu a:hover {
+  color: #85c616;
+}
+#main-menu > nav > ul > li > a {
+  padding-top: 50px;
+  height: 97px;
+}
+#main-menu > nav > ul > li.about-us > a {
+  background: url('images/about-us.png') 50% 20% no-repeat;
+}
+#main-menu > nav > ul > li.about-us > a:hover {
+  background: url('images/about-us-active.png') 50% 20% no-repeat;
+}
+#main-menu > nav > ul > li.destinations > a {
+  background: url('images/destinations.png') 50% 20% no-repeat;
+}
+#main-menu > nav > ul > li.destinations > a:hover {
+  background: url('images/destinations-active.png') 50% 20% no-repeat;
+}
+#main-menu > nav > ul > li.our-travel > a {
+  background: url('images/our-travel.png') 50% 20% no-repeat;
+}
+#main-menu > nav > ul > li.our-travel > a:hover {
+  background: url('images/our-travel-active.png') 50% 20% no-repeat;
+}
+#main-menu > nav > ul > li.special-offers > a {
+  background: url('images/special-offers.png') 50% 20% no-repeat;
+}
+#main-menu > nav > ul > li.special-offers > a:hover {
+  background: url('images/special-offers-active.png') 50% 20% no-repeat;
+}
+#main-menu > nav > ul > li.hotel > a {
+  background: url('images/hotel.png') 50% 20% no-repeat;
+}
+#main-menu > nav > ul > li.hotel > a:hover {
+  background: url('images/hotel-active.png') 50% 20% no-repeat;
+}
+#main-menu > nav > ul > li.shortcodes > a {
+  background: url('images/shortcodes.png') 50% 20% no-repeat;
+}
+#main-menu > nav > ul > li.shortcodes > a:hover {
+  background: url('images/shortcodes-active.png') 50% 20% no-repeat;
+}
+#main-menu > nav > ul > li.contact > a {
+  background: url('images/contact.png') 50% 20% no-repeat;
+}
+#main-menu > nav > ul > li.contact > a:hover {
+  background: url('images/contact-active.png') 50% 20% no-repeat;
+}
+#main-menu li {
+  float: left;
+  margin-right: 48px;
+}
+#main-menu li:last-child {
+  margin-right: 0;
+}
+#main-menu li a {
+  display: inline-block;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#main-menu li a:hover {
+  text-decoration: none;
+}
+#main-menu li a:hover:before {
+  position: absolute;
+  display: block;
+  width: 100%;
+  top: 0;
+  left: 0;
+  content: '';
+  border-bottom: 3px solid #85c616;
+}

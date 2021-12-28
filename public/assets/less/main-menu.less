@@ -1,0 +1,135 @@
+// Mixins
+
+@import url("elements.less");
+
+
+/** 
+ * Main menu 
+ * =============================== */ 
+ 
+#main-menu{
+	
+	&:before, &:after{
+		.clearfix;
+	}
+	
+	a{
+		color:@gray-darker-1;
+		position:relative;
+		
+		&:hover{
+			color:@hover-color;
+		}
+		
+	}
+	
+	> nav{
+	
+		> ul{
+		
+			> li{
+				
+				> a{
+				
+					padding-top:50px;
+					height:97px;	
+				
+				}
+				
+				&.about-us{	
+					> a{
+						background:url('images/about-us.png') 50% 20% no-repeat;		
+						&:hover{
+							background:url('images/about-us-active.png') 50% 20% no-repeat;	
+						}						
+					}
+				}
+				&.destinations{
+					> a{
+						background:url('images/destinations.png') 50% 20% no-repeat;	
+						&:hover{
+							background:url('images/destinations-active.png') 50% 20% no-repeat;	
+						}							
+					}				
+				}
+				&.our-travel{
+					> a{
+						background:url('images/our-travel.png') 50% 20% no-repeat;	
+						&:hover{
+							background:url('images/our-travel-active.png') 50% 20% no-repeat;	
+						}						
+					}				
+				}
+				&.special-offers{
+					> a{
+						background:url('images/special-offers.png') 50% 20% no-repeat;
+						&:hover{
+							background:url('images/special-offers-active.png') 50% 20% no-repeat;	
+						}							
+					}				
+				}
+				&.hotel{
+					> a{
+						background:url('images/hotel.png') 50% 20% no-repeat;	
+						&:hover{
+							background:url('images/hotel-active.png') 50% 20% no-repeat;	
+						}							
+					}				
+				}
+				&.shortcodes{
+					> a{
+						background:url('images/shortcodes.png') 50% 20% no-repeat;		
+						&:hover{
+							background:url('images/shortcodes-active.png') 50% 20% no-repeat;	
+						}							
+					}				
+				}
+				&.contact{
+					> a{
+						background:url('images/contact.png') 50% 20% no-repeat;	
+						&:hover{
+							background:url('images/contact-active.png') 50% 20% no-repeat;	
+						}		
+					}				
+				}
+				
+			}
+		
+		}
+	
+	}
+	
+	li{
+		float:left;
+		margin-right:48px;
+		
+		&:last-child{
+			margin-right:0;
+		}
+		
+		a{
+			display:inline-block;
+			position:relative;
+			text-transform:uppercase;
+			.font-weight-bold;
+			
+			&:hover{
+			
+				text-decoration:none;
+				&:before{
+					position:absolute;
+					display:block;
+					width:100%;
+					top:0;
+					left:0;
+					content:'';
+					border-bottom:3px solid @hover-color;
+				}			
+			
+			}
+			
+		}
+		
+	}
+
+} 

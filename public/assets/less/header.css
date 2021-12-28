@@ -1,0 +1,82 @@
+/* line 158, F:\Works\Traveline\preview\less\elements.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/elements\.less}line{font-family:\00003158}}
+.clearfix {
+  display: table;
+  content: '';
+  clear: both;
+}
+/* line 165, F:\Works\Traveline\preview\less\elements.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/elements\.less}line{font-family:\00003165}}
+.font-weight-regular {
+  font-weight: 400;
+}
+/* line 169, F:\Works\Traveline\preview\less\elements.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/elements\.less}line{font-family:\00003169}}
+.font-weight-bold {
+  font-weight: 700;
+}
+/* line 173, F:\Works\Traveline\preview\less\elements.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/elements\.less}line{font-family:\00003173}}
+.font-weight-ultra-bold {
+  font-weight: 900;
+}
+/* line 177, F:\Works\Traveline\preview\less\elements.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/elements\.less}line{font-family:\00003177}}
+.button-hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #85c616;
+  border-top: solid 1px #85c616;
+  border-left: solid 1px #85c616;
+  border-right: solid 1px #85c616;
+  border-bottom: solid 1px #85c616;
+}
+/** 
+ * Header 
+ * =============================== */
+/* line 11, F:\Works\Traveline\preview\less\header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/header\.less}line{font-family:\0000311}}
+#header {
+  position: relative;
+  background-color: #ffffff;
+}
+/* line 18, F:\Works\Traveline\preview\less\header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/header\.less}line{font-family:\0000318}}
+#header .container:before,
+#header .container:after {
+  display: table;
+  content: '';
+  clear: both;
+}
+/* line 24, F:\Works\Traveline\preview\less\header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/header\.less}line{font-family:\0000324}}
+#header .branding {
+  width: 230px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+/* line 30, F:\Works\Traveline\preview\less\header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/header\.less}line{font-family:\0000330}}
+#header .branding a:hover {
+  text-decoration: none;
+}
+/* line 37, F:\Works\Traveline\preview\less\header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/header\.less}line{font-family:\0000337}}
+#header .branding,
+#header #main-menu {
+  display: table;
+  float: left;
+}
+/* line 42, F:\Works\Traveline\preview\less\header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/header\.less}line{font-family:\0000342}}
+#header .toggle-menu {
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 50px;
+  top: 22px;
+  right: 29px;
+  cursor: pointer;
+  text-indent: -9999px;
+  background: url('images/toggle-menu.png') no-repeat;
+}

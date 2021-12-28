@@ -1,0 +1,115 @@
+/* line 158, F:\Works\Traveline\preview\less\elements.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/elements\.less}line{font-family:\00003158}}
+.clearfix {
+  display: table;
+  content: '';
+  clear: both;
+}
+/* line 165, F:\Works\Traveline\preview\less\elements.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/elements\.less}line{font-family:\00003165}}
+.font-weight-regular {
+  font-weight: 400;
+}
+/* line 169, F:\Works\Traveline\preview\less\elements.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/elements\.less}line{font-family:\00003169}}
+.font-weight-bold {
+  font-weight: 700;
+}
+/* line 173, F:\Works\Traveline\preview\less\elements.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/elements\.less}line{font-family:\00003173}}
+.font-weight-ultra-bold {
+  font-weight: 900;
+}
+/* line 177, F:\Works\Traveline\preview\less\elements.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/elements\.less}line{font-family:\00003177}}
+.button-hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #85c616;
+  border-top: solid 1px #85c616;
+  border-left: solid 1px #85c616;
+  border-right: solid 1px #85c616;
+  border-bottom: solid 1px #85c616;
+}
+/** 
+ * About Section 
+ * =============================== */
+/* line 11, F:\Works\Traveline\preview\less\section-about.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-about\.less}line{font-family:\0000311}}
+#about-us {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e9eff4;
+}
+/* line 19, F:\Works\Traveline\preview\less\section-about.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-about\.less}line{font-family:\0000319}}
+.grid.about-details {
+  text-align: center;
+}
+/* line 23, F:\Works\Traveline\preview\less\section-about.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-about\.less}line{font-family:\0000323}}
+.grid.about-details h2 {
+  font-size: 18px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  color: #51575b;
+  margin-bottom: 20px;
+}
+/* line 31, F:\Works\Traveline\preview\less\section-about.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-about\.less}line{font-family:\0000331}}
+.grid.about-details div[class*="about-detail-"] {
+  padding-top: 200px;
+}
+/* line 36, F:\Works\Traveline\preview\less\section-about.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-about\.less}line{font-family:\0000336}}
+.grid.about-details div[class*="about-detail-"]:hover h2 {
+  color: #85c616;
+}
+/* line 40, F:\Works\Traveline\preview\less\section-about.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-about\.less}line{font-family:\0000340}}
+.grid.about-details div[class*="about-detail-"]:hover .button {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #85c616;
+  border-top: solid 1px #85c616;
+  border-left: solid 1px #85c616;
+  border-right: solid 1px #85c616;
+  border-bottom: solid 1px #85c616;
+}
+/* line 49, F:\Works\Traveline\preview\less\section-about.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-about\.less}line{font-family:\0000349}}
+.grid.about-details .honey-moon {
+  background: url('images/honey-moon.png') 50% 0% no-repeat;
+}
+/* line 51, F:\Works\Traveline\preview\less\section-about.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-about\.less}line{font-family:\0000351}}
+.grid.about-details .honey-moon:hover {
+  background: url('images/honey-moon-active.png') 50% 0% no-repeat;
+}
+/* line 55, F:\Works\Traveline\preview\less\section-about.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-about\.less}line{font-family:\0000355}}
+.grid.about-details .explore-nature {
+  background: url('images/explore-nature.png') 50% 0% no-repeat;
+}
+/* line 57, F:\Works\Traveline\preview\less\section-about.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-about\.less}line{font-family:\0000357}}
+.grid.about-details .explore-nature:hover {
+  background: url('images/explore-nature-active.png') 50% 0% no-repeat;
+}
+/* line 61, F:\Works\Traveline\preview\less\section-about.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-about\.less}line{font-family:\0000361}}
+.grid.about-details .amazing-travel {
+  background: url('images/amazing-travel.png') 50% 0% no-repeat;
+}
+/* line 63, F:\Works\Traveline\preview\less\section-about.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-about\.less}line{font-family:\0000363}}
+.grid.about-details .amazing-travel:hover {
+  background: url('images/amazing-travel-active.png') 50% 0% no-repeat;
+}
+/* Responsive */
+@media screen and (max-width: 991px) {
+  /* line 82, F:\Works\Traveline\preview\less\section-about.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Works\/Traveline\/preview\/less\/section-about\.less}line{font-family:\0000382}}
+  .grid.about-details div[class*="about-detail-"] {
+    margin-bottom: 50px;
+  }
+}
