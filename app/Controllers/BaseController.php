@@ -52,6 +52,12 @@ class BaseController extends Controller
     }
     public function initPaymentGateway()
     {
+        /**
+         * MIDTRANS
+         *Email = xabey99017@ehstock.com
+         *password = Cvk#8uR3Eg*qkdF
+         **/
+
         // Set your Merchant Server Key
         \Midtrans\Config::$serverKey = 'SB-Mid-server-ZKe3a5xJzbsnWL_0FuZ5dqkw';
         // Set to Development/Sandbox Environment (default). Set to true for Production Environment (accept real transaction).
